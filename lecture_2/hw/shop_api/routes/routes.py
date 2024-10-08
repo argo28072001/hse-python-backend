@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 from pydantic import NonNegativeInt, PositiveInt
 
 from shop_api.database.database import get_db
-from shop_api.models.models import Cart, Item, CartItem
+from shop_api.tables.model import Cart, Item, CartItem
 from shop_api.models import models
 
 router = APIRouter()
